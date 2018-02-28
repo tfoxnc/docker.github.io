@@ -26,7 +26,7 @@ Caution is advised when applying this update, make sure you redeploy DTR, and in
 the process you will create new credentials because the previous ones were
 potentially disclosed due to the vulnerability.
 
-Use the `--log-driver=none` option for `docker run` when running a DTR backup, HA
+Use the `--log-driver none` option for `docker run` when running a DTR backup, HA
 cluster join or dumpcerts.
 
 ## 2.4.1
